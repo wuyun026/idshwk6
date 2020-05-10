@@ -1,0 +1,485 @@
+date and time 
+Sun May 10 05:33:35 PDT 2020
+
+
+os version
+Ubuntu 18.04.4 LTS \n \l
+Linux ubuntu 4.15.0-99-generic #100-Ubuntu SMP Wed Apr 22 20:32:56 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+
+
+hardware information
+yunw@ubuntu:~$ cat /proc/cpinfo
+cat: /proc/cpinfo: No such file or directory
+yunw@ubuntu:~$ cat /proc/cpuinfo
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz
+stepping	: 9
+microcode	: 0x8e
+cpu MHz		: 2904.003
+cache size	: 4096 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid mpx rdseed adx smap clflushopt xsaveopt xsavec xsaves arat flush_l1d arch_capabilities
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 5808.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 43 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz
+stepping	: 9
+microcode	: 0x8e
+cpu MHz		: 2904.003
+cache size	: 4096 KB
+physical id	: 2
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid mpx rdseed adx smap clflushopt xsaveopt xsavec xsaves arat flush_l1d arch_capabilities
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 5808.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 43 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz
+stepping	: 9
+microcode	: 0x8e
+cpu MHz		: 2904.003
+cache size	: 4096 KB
+physical id	: 4
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 4
+initial apicid	: 4
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid mpx rdseed adx smap clflushopt xsaveopt xsavec xsaves arat flush_l1d arch_capabilities
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 5808.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 43 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+
+ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+udev            1.9G     0  1.9G   0% /dev
+tmpfs           393M  1.7M  391M   1% /run
+/dev/sda1        59G  7.8G   49G  14% /
+tmpfs           2.0G     0  2.0G   0% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           2.0G     0  2.0G   0% /sys/fs/cgroup
+/dev/loop0       13M   13M     0 100% /snap/gnome-characters/69
+/dev/loop1      1.7M  1.7M     0 100% /snap/gnome-calculator/154
+/dev/loop2      141M  141M     0 100% /snap/gnome-3-26-1604/59
+/dev/loop3      3.4M  3.4M     0 100% /snap/gnome-system-monitor/36
+/dev/loop4       87M   87M     0 100% /snap/core/4486
+/dev/loop5       21M   21M     0 100% /snap/gnome-logs/25
+tmpfs           393M  116K  393M   1% /run/user/1000
+
+model		: 142
+model name	: Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz
+stepping	: 9
+microcode	: 0x8e
+cpu MHz		: 2904.003
+cache size	: 4096 KB
+physical id	: 6
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 6
+initial apicid	: 6
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid mpx rdseed adx smap clflushopt xsaveopt xsavec xsaves arat flush_l1d arch_capabilities
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 5808.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 43 bits physical, 48 bits virtual
+power management:
+
+
+uptime
+ 05:34:49 up 5 min,  1 user,  load average: 0.43, 0.42, 0.20
+
+
+service --status-all
+ [ + ]  acpid
+ [ + ]  alsa-utils
+ [ - ]  anacron
+ [ + ]  apparmor
+ [ + ]  apport
+ [ + ]  avahi-daemon
+ [ + ]  bluetooth
+ [ - ]  console-setup.sh
+ [ + ]  cron
+ [ + ]  cups
+ [ + ]  cups-browsed
+ [ + ]  dbus
+ [ - ]  dns-clean
+ [ - ]  gdm3
+ [ + ]  grub-common
+ [ - ]  hwclock.sh
+ [ + ]  irqbalance
+ [ + ]  kerneloops
+ [ - ]  keyboard-setup.sh
+ [ + ]  kmod
+ [ + ]  lightdm
+ [ + ]  network-manager
+ [ + ]  networking
+ [ + ]  open-vm-tools
+ [ - ]  plymouth
+ [ - ]  plymouth-log
+ [ - ]  pppd-dns
+ [ + ]  procps
+ [ - ]  rsync
+ [ + ]  rsyslog
+ [ - ]  saned
+ [ + ]  speech-dispatcher
+ [ - ]  spice-vdagent
+ [ + ]  udev
+ [ + ]  ufw
+ [ + ]  unattended-upgrades
+ [ - ]  uuidd
+ [ + ]  whoopsie
+ [ - ]  x11-common
+
+
+nic information
+ens33: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.27.129  netmask 255.255.255.0  broadcast 192.168.27.255
+        inet6 fe80::f4f5:39f6:c5c7:5703  prefixlen 64  scopeid 0x20<link>
+        ether 00:0c:29:9a:15:14  txqueuelen 1000  (Ethernet)
+        RX packets 3646  bytes 4512797 (4.5 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1621  bytes 162819 (162.8 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 355  bytes 29751 (29.7 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 355  bytes 29751 (29.7 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+
+rout information
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+0.0.0.0         192.168.27.2    0.0.0.0         UG        0 0          0 ens33
+169.254.0.0     0.0.0.0         255.255.0.0     U         0 0          0 ens33
+192.168.27.0    0.0.0.0         255.255.255.0   U         0 0          0 ens33
+
+
+arp information
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+default         192.168.27.2    0.0.0.0         UG        0 0          0 ens33
+link-local      0.0.0.0         255.255.0.0     U         0 0          0 ens33
+192.168.27.0    0.0.0.0         255.255.255.0   U         0 0          0 ens33
+
+
+information of processes
+yunw@ubuntu:~/Desktop$ ps aux
+USER        PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root          1  0.1  0.2 225344  8908 ?        Ss   05:29   0:02 /sbin/init aut
+root          2  0.0  0.0      0     0 ?        S    05:29   0:00 [kthreadd]
+root          4  0.0  0.0      0     0 ?        I<   05:29   0:00 [kworker/0:0H]
+root          6  0.0  0.0      0     0 ?        I<   05:29   0:00 [mm_percpu_wq]
+root          7  0.0  0.0      0     0 ?        S    05:29   0:00 [ksoftirqd/0]
+root          8  0.0  0.0      0     0 ?        I    05:29   0:01 [rcu_sched]
+root          9  0.0  0.0      0     0 ?        I    05:29   0:00 [rcu_bh]
+root         10  0.0  0.0      0     0 ?        S    05:29   0:00 [migration/0]
+root         11  0.0  0.0      0     0 ?        S    05:29   0:00 [watchdog/0]
+root         12  0.0  0.0      0     0 ?        S    05:29   0:00 [cpuhp/0]
+root         13  0.0  0.0      0     0 ?        S    05:29   0:00 [cpuhp/1]
+root         14  0.0  0.0      0     0 ?        S    05:29   0:00 [watchdog/1]
+root         15  0.0  0.0      0     0 ?        S    05:29   0:00 [migration/1]
+root         16  0.0  0.0      0     0 ?        S    05:29   0:00 [ksoftirqd/1]
+root         18  0.0  0.0      0     0 ?        I<   05:29   0:00 [kworker/1:0H]
+root         19  0.0  0.0      0     0 ?        S    05:29   0:00 [cpuhp/2]
+root         20  0.0  0.0      0     0 ?        S    05:29   0:00 [watchdog/2]
+root         21  0.0  0.0      0     0 ?        S    05:29   0:00 [migration/2]
+root         22  0.0  0.0      0     0 ?        S    05:29   0:00 [ksoftirqd/2]
+root         24  0.0  0.0      0     0 ?        I<   05:29   0:00 [kworker/2:0H]
+root         25  0.0  0.0      0     0 ?        S    05:29   0:00 [cpuhp/3]
+root         26  0.0  0.0      0     0 ?        S    05:29   0:00 [watchdog/3]
+root         27  0.0  0.0      0     0 ?        S    05:29   0:00 [migration/3]
+root         28  0.0  0.0      0     0 ?        S    05:29   0:00 [ksoftirqd/3]
+root         30  0.0  0.0      0     0 ?        I<   05:29   0:00 [kworker/3:0H]
+root         31  0.0  0.0      0     0 ?        S    05:29   0:00 [kdevtmpfs]
+root         32  0.0  0.0      0     0 ?        I<   05:29   0:00 [netns]
+root         33  0.0  0.0      0     0 ?        S    05:29   0:00 [rcu_tasks_kth
+root         34  0.0  0.0      0     0 ?        S    05:29   0:00 [kauditd]
+root         36  0.0  0.0      0     0 ?        S    05:29   0:00 [khungtaskd]
+root         37  0.0  0.0      0     0 ?        S    05:29   0:00 [oom_reaper]
+root         38  0.0  0.0      0     0 ?        I<   05:29   0:00 [writeback]
+root         39  0.0  0.0      0     0 ?        S    05:29   0:00 [kcompactd0]
+root         40  0.0  0.0      0     0 ?        SN   05:29   0:00 [ksmd]
+root         41  0.0  0.0      0     0 ?        SN   05:29   0:00 [khugepaged]
+root         42  0.0  0.0      0     0 ?        I<   05:29   0:00 [crypto]
+root         43  0.0  0.0      0     0 ?        I<   05:29   0:00 [kintegrityd]
+root         44  0.0  0.0      0     0 ?        I<   05:29   0:00 [kblockd]
+root         46  0.0  0.0      0     0 ?        I<   05:29   0:00 [ata_sff]
+root         47  0.0  0.0      0     0 ?        I<   05:29   0:00 [md]
+root         48  0.0  0.0      0     0 ?        I<   05:29   0:00 [edac-poller]
+root         49  0.0  0.0      0     0 ?        I<   05:29   0:00 [devfreq_wq]
+root         50  0.0  0.0      0     0 ?        I<   05:29   0:00 [watchdogd]
+root         52  0.0  0.0      0     0 ?        I    05:29   0:00 [kworker/3:1]
+root         53  0.0  0.0      0     0 ?        I    05:29   0:00 [kworker/2:1]
+root         55  0.0  0.0      0     0 ?        S    05:29   0:00 [kswapd0]
+root         57  0.0  0.0      0     0 ?        S    05:29   0:00 [ecryptfs-kthr
+root         99  0.0  0.0      0     0 ?        I<   05:29   0:00 [kthrotld]
+root        100  0.0  0.0      0     0 ?        I<   05:29   0:00 [acpi_thermal_
+root        101  0.0  0.0      0     0 ?        S    05:29   0:00 [scsi_eh_0]
+root        102  0.0  0.0      0     0 ?        I<   05:29   0:00 [scsi_tmf_0]
+root        103  0.0  0.0      0     0 ?        S    05:29   0:00 [scsi_eh_1]
+root        104  0.0  0.0      0     0 ?        I<   05:29   0:00 [scsi_tmf_1]
+root        110  0.0  0.0      0     0 ?        I<   05:29   0:00 [ipv6_addrconf
+root        119  0.0  0.0      0     0 ?        I<   05:29   0:00 [kstrp]
+root        136  0.0  0.0      0     0 ?        I<   05:29   0:00 [charger_manag
+root        194  0.0  0.0      0     0 ?        I<   05:29   0:00 [mpt_poll_0]
+root        195  0.0  0.0      0     0 ?        I<   05:29   0:00 [mpt/0]
+root        196  0.0  0.0      0     0 ?        S    05:29   0:00 [scsi_eh_2]
+root        197  0.0  0.0      0     0 ?        I<   05:29   0:00 [scsi_tmf_2]
+root        198  0.0  0.0      0     0 ?        S    05:29   0:00 [scsi_eh_3]
+root        199  0.0  0.0      0     0 ?        I<   05:29   0:00 [scsi_tmf_3]
+root        200  0.0  0.0      0     0 ?        S    05:29   0:00 [scsi_eh_4]
+root        201  0.0  0.0      0     0 ?        I<   05:29   0:00 [scsi_tmf_4]
+root        202  0.0  0.0      0     0 ?        S    05:29   0:00 [scsi_eh_5]
+root        203  0.0  0.0      0     0 ?        I<   05:29   0:00 [scsi_tmf_5]
+root        204  0.0  0.0      0     0 ?        S    05:29   0:00 [scsi_eh_6]
+root        205  0.0  0.0      0     0 ?        I<   05:29   0:00 [scsi_tmf_6]
+root        206  0.0  0.0      0     0 ?        S    05:29   0:00 [scsi_eh_7]
+root        207  0.0  0.0      0     0 ?        I<   05:29   0:00 [scsi_tmf_7]
+root        208  0.0  0.0      0     0 ?        S    05:29   0:00 [scsi_eh_8]
+root        209  0.0  0.0      0     0 ?        I<   05:29   0:00 [scsi_tmf_8]
+root        210  0.0  0.0      0     0 ?        S    05:29   0:00 [scsi_eh_9]
+root        211  0.0  0.0      0     0 ?        I<   05:29   0:00 [scsi_tmf_9]
+root        212  0.0  0.0      0     0 ?        S    05:29   0:00 [scsi_eh_10]
+root        213  0.0  0.0      0     0 ?        I<   05:29   0:00 [scsi_tmf_10]
+root        214  0.0  0.0      0     0 ?        S    05:29   0:00 [scsi_eh_11]
+root        215  0.0  0.0      0     0 ?        I<   05:29   0:00 [scsi_tmf_11]
+root        216  0.0  0.0      0     0 ?        S    05:29   0:00 [scsi_eh_12]
+root        217  0.0  0.0      0     0 ?        I<   05:29   0:00 [scsi_tmf_12]
+root        218  0.0  0.0      0     0 ?        S    05:29   0:00 [scsi_eh_13]
+root        219  0.0  0.0      0     0 ?        I<   05:29   0:00 [scsi_tmf_13]
+root        220  0.0  0.0      0     0 ?        S    05:29   0:00 [scsi_eh_14]
+root        221  0.0  0.0      0     0 ?        I<   05:29   0:00 [scsi_tmf_14]
+root        222  0.0  0.0      0     0 ?        S    05:29   0:00 [scsi_eh_15]
+root        223  0.0  0.0      0     0 ?        I<   05:29   0:00 [scsi_tmf_15]
+root        224  0.0  0.0      0     0 ?        S    05:29   0:00 [scsi_eh_16]
+root        225  0.0  0.0      0     0 ?        I<   05:29   0:00 [scsi_tmf_16]
+root        226  0.0  0.0      0     0 ?        S    05:29   0:00 [scsi_eh_17]
+root        227  0.0  0.0      0     0 ?        I<   05:29   0:00 [scsi_tmf_17]
+root        228  0.0  0.0      0     0 ?        S    05:29   0:00 [scsi_eh_18]
+root        229  0.0  0.0      0     0 ?        I<   05:29   0:00 [scsi_tmf_18]
+root        230  0.0  0.0      0     0 ?        S    05:29   0:00 [scsi_eh_19]
+root        231  0.0  0.0      0     0 ?        I<   05:29   0:00 [scsi_tmf_19]
+root        232  0.0  0.0      0     0 ?        S    05:29   0:00 [scsi_eh_20]
+root        233  0.0  0.0      0     0 ?        I<   05:29   0:00 [scsi_tmf_20]
+root        234  0.0  0.0      0     0 ?        S    05:29   0:00 [scsi_eh_21]
+root        235  0.0  0.0      0     0 ?        I<   05:29   0:00 [scsi_tmf_21]
+root        236  0.0  0.0      0     0 ?        S    05:29   0:00 [scsi_eh_22]
+root        237  0.0  0.0      0     0 ?        I<   05:29   0:00 [scsi_tmf_22]
+root        238  0.0  0.0      0     0 ?        S    05:29   0:00 [scsi_eh_23]
+root        239  0.0  0.0      0     0 ?        I<   05:29   0:00 [scsi_tmf_23]
+root        240  0.0  0.0      0     0 ?        S    05:29   0:00 [scsi_eh_24]
+root        241  0.0  0.0      0     0 ?        I<   05:29   0:00 [scsi_tmf_24]
+root        242  0.0  0.0      0     0 ?        S    05:29   0:00 [scsi_eh_25]
+root        243  0.0  0.0      0     0 ?        I<   05:29   0:00 [scsi_tmf_25]
+root        244  0.0  0.0      0     0 ?        S    05:29   0:00 [scsi_eh_26]
+root        245  0.0  0.0      0     0 ?        I<   05:29   0:00 [scsi_tmf_26]
+root        246  0.0  0.0      0     0 ?        S    05:29   0:00 [scsi_eh_27]
+root        247  0.0  0.0      0     0 ?        I<   05:29   0:00 [scsi_tmf_27]
+root        248  0.0  0.0      0     0 ?        S    05:29   0:00 [scsi_eh_28]
+root        249  0.0  0.0      0     0 ?        I<   05:29   0:00 [scsi_tmf_28]
+root        250  0.0  0.0      0     0 ?        S    05:29   0:00 [scsi_eh_29]
+root        251  0.0  0.0      0     0 ?        I<   05:29   0:00 [scsi_tmf_29]
+root        252  0.0  0.0      0     0 ?        S    05:29   0:00 [scsi_eh_30]
+root        253  0.0  0.0      0     0 ?        I<   05:29   0:00 [scsi_tmf_30]
+root        254  0.0  0.0      0     0 ?        S    05:29   0:00 [scsi_eh_31]
+root        255  0.0  0.0      0     0 ?        I<   05:29   0:00 [scsi_tmf_31]
+root        279  0.0  0.0      0     0 ?        I    05:29   0:00 [kworker/u256:
+root        283  0.0  0.0      0     0 ?        I    05:29   0:00 [kworker/2:2]
+root        284  0.0  0.0      0     0 ?        S    05:29   0:00 [scsi_eh_32]
+root        285  0.0  0.0      0     0 ?        I<   05:29   0:00 [scsi_tmf_32]
+root        287  0.0  0.0      0     0 ?        I<   05:29   0:00 [kworker/1:1H]
+root        289  0.0  0.0      0     0 ?        I<   05:29   0:00 [kworker/0:1H]
+root        300  0.0  0.0      0     0 ?        I<   05:29   0:00 [kworker/3:1H]
+root        304  0.0  0.0      0     0 ?        I<   05:29   0:00 [kworker/2:1H]
+root        312  0.0  0.0      0     0 ?        S    05:29   0:00 [jbd2/sda1-8]
+root        313  0.0  0.0      0     0 ?        I<   05:29   0:00 [ext4-rsv-conv
+root        345  0.0  0.4  95080 16688 ?        S<s  05:29   0:00 /lib/systemd/s
+root        367  0.0  0.0      0     0 ?        I    05:29   0:00 [kworker/0:2]
+root        373  0.0  0.1  47760  5944 ?        Ss   05:29   0:00 /lib/systemd/s
+root        388  0.0  0.0      0     0 ?        S<   05:29   0:00 [loop0]
+root        396  0.0  0.0      0     0 ?        I<   05:29   0:00 [ttm_swap]
+root        398  0.0  0.0      0     0 ?        S    05:29   0:00 [irq/16-vmwgfx
+root        400  0.0  0.0      0     0 ?        S<   05:29   0:00 [loop1]
+root        403  0.0  0.0      0     0 ?        S<   05:29   0:00 [loop2]
+root        409  0.0  0.0      0     0 ?        S<   05:29   0:00 [loop3]
+root        412  0.0  0.0      0     0 ?        S<   05:29   0:00 [loop4]
+root        413  0.0  0.0      0     0 ?        S<   05:29   0:00 [loop5]
+root        438  0.0  0.0 158788   300 ?        Ssl  05:29   0:00 vmware-vmblock
+systemd+    480  0.0  0.1  70772  5392 ?        Ss   05:29   0:00 /lib/systemd/s
+systemd+    481  0.0  0.0 146116  3236 ?        Ssl  05:29   0:00 /lib/systemd/s
+root        524  0.0  0.2  98264 10112 ?        Ss   05:29   0:00 /usr/bin/VGAut
+root        527  0.1  0.1 235384  7768 ?        Ssl  05:29   0:03 /usr/bin/vmtoo
+root        531  0.0  0.0 110516  3508 ?        Ssl  05:29   0:00 /usr/sbin/irqb
+root        535  0.0  0.0   4552   832 ?        Ss   05:29   0:00 /usr/sbin/acpi
+root        537  0.0  0.1 294740  6992 ?        Ssl  05:29   0:00 /usr/lib/accou
+message+    539  0.0  0.1  51584  5852 ?        Ss   05:29   0:00 /usr/bin/dbus-
+root        567  0.0  0.0      0     0 ?        I<   05:29   0:00 [kworker/u257:
+root        568  0.0  0.0      0     0 ?        I<   05:29   0:00 [kworker/u257:
+root        577  0.0  0.4 639456 16748 ?        Ssl  05:29   0:00 /usr/sbin/Netw
+root        578  0.0  0.2 434336  9508 ?        Ssl  05:29   0:00 /usr/sbin/Mode
+root        580  0.0  0.1  70696  6092 ?        Ss   05:29   0:00 /lib/systemd/s
+root        582  0.0  0.2 502956 10244 ?        Ssl  05:29   0:00 /usr/lib/udisk
+syslog      587  0.0  0.1 263040  4308 ?        Ssl  05:29   0:00 /usr/sbin/rsys
+root        614  0.0  0.6 1670400 24880 ?       Ssl  05:29   0:01 /usr/lib/snapd
+avahi       615  0.0  0.0  47256  3072 ?        Ss   05:29   0:00 avahi-daemon: 
+root        623  0.0  0.1  45232  5348 ?        Ss   05:29   0:00 /sbin/wpa_supp
+avahi       681  0.0  0.0  47076   344 ?        S    05:29   0:00 avahi-daemon: 
+root        682  0.0  0.4 177636 17252 ?        Ssl  05:29   0:00 /usr/bin/pytho
+root        691  0.0  0.0  38428  3200 ?        Ss   05:29   0:00 /usr/sbin/cron
+root        752  0.0  0.2 292964  8740 ?        Ssl  05:29   0:00 /usr/lib/polic
+root        753  0.0  0.1  36484  4568 ?        Ss   05:29   0:00 /usr/lib/bluet
+root        849  0.0  0.4 194360 19920 ?        Ssl  05:29   0:00 /usr/bin/pytho
+root        856  0.0  0.1  25992  6228 ?        S    05:29   0:00 /sbin/dhclient
+root        857  0.0  0.1 364372  6760 ?        SLsl 05:29   0:00 /usr/sbin/ligh
+root        860  0.0  0.0  23288  1964 tty1     Ss+  05:29   0:00 /sbin/agetty -
+whoopsie    895  0.0  0.3 388584 12560 ?        Ssl  05:29   0:00 /usr/bin/whoop
+root        906  1.5  1.9 483368 76888 tty7     Rsl+ 05:29   0:43 /usr/lib/xorg/
+kernoops    930  0.0  0.0  56944   420 ?        Ss   05:29   0:00 /usr/sbin/kern
+kernoops    932  0.0  0.0  56944   420 ?        Ss   05:29   0:00 /usr/sbin/kern
+root       1095  0.0  0.2 322328  8596 ?        Ssl  05:29   0:00 /usr/lib/upowe
+colord     1139  0.0  0.3 325004 13992 ?        Ssl  05:29   0:00 /usr/lib/color
+rtkit      1142  0.0  0.0 183508  2992 ?        SNsl 05:29   0:00 /usr/lib/rtkit
+root       1150  0.0  0.1 250552  6836 ?        Sl   05:29   0:00 lightdm --sess
+root       1158  0.0  0.0      0     0 ?        S<   05:29   0:00 [krfcommd]
+yunw       1185  0.0  0.2  77280  8356 ?        Ss   05:32   0:00 /lib/systemd/s
+yunw       1186  0.0  0.0 261416  2548 ?        S    05:32   0:00 (sd-pam)
+yunw       1199  0.0  0.1 288384  7516 ?        Sl   05:32   0:00 /usr/bin/gnome
+yunw       1202  0.0  0.0  10948  1844 ?        Ss   05:32   0:00 /bin/sh /usr/l
+yunw       1248  0.0  0.1 435452  7464 ?        Ssl  05:32   0:02 /usr/bin/ibus-
+yunw       1252  0.0  0.1  51012  5428 ?        Ss   05:32   0:01 /usr/bin/dbus-
+yunw       1254  0.0  0.1 291972  7096 ?        Ssl  05:32   0:00 /usr/lib/gvfs/
+yunw       1262  0.0  0.1 416116  5332 ?        Sl   05:32   0:00 /usr/lib/gvfs/
+yunw       1264  0.0  0.1 280752  6432 ?        Sl   05:32   0:00 /usr/lib/ibus/
+yunw       1274  0.0  0.8 478168 33840 ?        Sl   05:32   0:01 /usr/lib/ibus/
+yunw       1279  0.0  0.5 343916 20620 ?        Sl   05:32   0:00 /usr/lib/ibus/
+yunw       1282  0.0  0.1 278560  5828 ?        Sl   05:32   0:00 /usr/lib/ibus/
+yunw       1306  0.0  0.1 204888  6472 ?        Sl   05:32   0:00 /usr/lib/ibus/
+yunw       1344  0.0  0.0  15548   344 ?        Ss   05:32   0:00 /usr/bin/ssh-a
+yunw       1444  0.0  0.0  74112  3100 ?        S    05:32   0:00 systemctl --us
+yunw       1455  0.0  0.5 470300 23632 ?        Ssl  05:32   0:00 /usr/lib/x86_6
+yunw       1456  0.0  0.1 449416  7968 ?        Ssl  05:32   0:00 /usr/lib/x86_6
+yunw       1457  0.0  0.8 1326620 32832 ?       Ssl  05:32   0:01 /usr/lib/unity
+yunw       1458  0.0  0.1 423664  5600 ?        Ssl  05:32   0:00 /usr/lib/x86_6
+yunw       1460  0.0  0.6 440852 25096 ?        Ssl  05:32   0:01 /usr/lib/x86_6
+yunw       1461  0.0  0.6 794612 27132 ?        Ssl  05:32   0:00 /usr/lib/x86_6
+yunw       1462  0.0  0.1 581244  6808 ?        Ssl  05:32   0:00 /usr/lib/x86_6
+yunw       1464  0.0  0.2 178052 10588 ?        Ssl  05:32   0:00 /usr/lib/x86_6
+yunw       1468  0.0  0.2 1020876 11312 ?       Ssl  05:32   0:00 /usr/lib/x86_6
+yunw       1474  0.0  0.6 1201244 25452 ?       Ssl  05:32   0:00 /usr/lib/x86_6
+yunw       1477  0.0  0.2 467104 10800 ?        Ssl  05:32   0:00 /usr/lib/x86_6
+yunw       1487  0.0  0.1 911324  7600 ?        Ssl  05:32   0:00 /usr/lib/x86_6
+yunw       1508  0.0  0.3 643480 14532 ?        Ssl  05:32   0:00 /usr/lib/gnome
+yunw       1539  0.0  0.4 1605508 17372 ?       S<l  05:32   0:01 /usr/bin/pulse
+yunw       1548  0.0  0.6 768132 24984 ?        Ssl  05:32   0:00 /usr/lib/evolu
+yunw       1570  0.0  0.8 785948 33276 ?        Sl   05:32   0:00 /usr/lib/gnome
+yunw       1572  0.0  0.1 190120  5296 ?        Sl   05:32   0:00 /usr/lib/dconf
+yunw       1581  0.0  1.6 894324 67312 ?        Ssl  05:32   0:00 /usr/lib/evolu
+yunw       1608  0.0  0.1 305440  7572 ?        Sl   05:32   0:00 /usr/lib/gnome
+yunw       1623  0.0  0.1 351596  6672 ?        Sl   05:32   0:00 /usr/lib/at-sp
+yunw       1631  0.0  0.1  52004  4228 ?        S    05:32   0:00 /usr/bin/dbus-
+yunw       1635  1.4  2.9 1317872 119240 ?      Ssl  05:32   0:37 /usr/bin/compi
+yunw       1642  0.0  0.8 640864 32276 ?        Ssl  05:32   0:01 /usr/lib/x86_6
+yunw       1649  0.0  0.1 222860  6376 ?        Sl   05:32   0:00 /usr/lib/at-sp
+yunw       1663  0.0  0.4 427924 18724 ?        Sl   05:32   0:00 /usr/lib/polic
+yunw       1664  0.2  0.8 565300 33908 ?        Sl   05:32   0:05 /usr/bin/vmtoo
+yunw       1670  0.0  0.7 674732 32096 ?        Sl   05:32   0:00 nm-applet
+yunw       1671  0.2  2.6 1335640 108208 ?      Sl   05:32   0:07 nautilus-deskt
+yunw       1685  0.0  0.4 575420 18732 ?        Sl   05:32   0:00 /usr/lib/unity
+yunw       1703  0.0  0.1 368120  7248 ?        Sl   05:32   0:00 /usr/lib/gvfs/
+yunw       1709  0.0  0.2 308388  8252 ?        Ssl  05:32   0:00 /usr/lib/gvfs/
+yunw       1717  0.0  0.1 380912  7580 ?        Ssl  05:32   0:00 /usr/lib/gvfs/
+yunw       1722  0.0  0.1 277948  5480 ?        Ssl  05:32   0:00 /usr/lib/gvfs/
+yunw       1732  0.0  0.1 290872  6348 ?        Ssl  05:32   0:00 /usr/lib/gvfs/
+yunw       1735  0.0  1.5 1146272 62104 ?       Sl   05:32   0:00 /usr/lib/evolu
+yunw       1739  0.0  0.1 276120  6032 ?        Ssl  05:32   0:00 /usr/lib/gvfs/
+yunw       1760  0.0  0.6 734900 24108 ?        Ssl  05:32   0:00 /usr/lib/evolu
+yunw       1774  0.0  0.6 1019400 26636 ?       Sl   05:32   0:00 /usr/lib/evolu
+yunw       1790  0.0  0.5 412800 22556 ?        Ssl  05:32   0:00 /usr/lib/x86_6
+yunw       1800  0.0  0.1 206564  5712 ?        Ssl  05:32   0:00 /usr/lib/gvfs/
+yunw       1810  0.0  0.3 771004 15588 ?        Sl   05:32   0:00 zeitgeist-data
+yunw       1819  0.0  0.2 435612  8824 ?        Ssl  05:32   0:00 /usr/bin/zeitg
+yunw       1825  0.0  0.4 328860 16584 ?        Ssl  05:32   0:00 /usr/lib/zeitg
+yunw       1850  0.4  0.9 807516 36676 ?        Rsl  05:33   0:10 /usr/lib/gnome
+yunw       1860  0.0  0.1  34012  5244 pts/0    Ss   05:33   0:00 bash
+yunw       1886  0.1  4.2 1290060 172024 ?      SLl  05:33   0:04 /usr/bin/gnome
+yunw       1889  0.0  0.5 599244 22104 ?        Sl   05:33   0:00 update-notifie
+root       1911  0.0  0.9 586568 37540 ?        Ssl  05:33   0:00 /usr/lib/fwupd
+root       1912  0.4  0.9 448660 36960 ?        Ssl  05:33   0:11 /usr/lib/packa
+root       1921  0.0  0.1 296876  6792 ?        Ssl  05:33   0:00 /usr/lib/x86_6
+yunw       2005  0.0  0.0  10948   940 ?        S    05:33   0:00 sh -c /usr/lib
+yunw       2006  0.0  0.1 275444  6180 ?        Sl   05:33   0:00 /usr/lib/x86_6
+root       2066  0.0  0.1 107700  7996 ?        Ss   05:34   0:00 /usr/sbin/cups
+root       2067  0.0  0.2 303532 10736 ?        Ssl  05:34   0:00 /usr/sbin/cups
+lp         2070  0.0  0.1  86420  5988 ?        S    05:34   0:00 /usr/lib/cups/
+yunw       2131  0.0  0.8 799308 33340 ?        Sl   05:34   0:00 /usr/lib/deja-
+root       2495  0.0  0.0      0     0 ?        I    05:40   0:00 [kworker/1:0]
+root       2520  0.0  0.0      0     0 ?        I    05:49   0:00 [kworker/u256:
+yunw       2529  0.0  0.0  33492  2700 pts/0    S+   05:52   0:00 script -f outp
+yunw       2530  0.0  0.1  33932  5160 pts/1    Ss   05:52   0:00 bash -i
+root       2579  0.0  0.0      0     0 ?        I    05:54   0:00 [kworker/0:1]
+yunw       2585  0.1  1.2 857692 50008 ?        Sl   05:55   0:01 /usr/bin/nauti
+root       2613  0.0  0.0      0     0 ?        I    05:56   0:00 [kworker/u256:
+yunw       2630  0.5  1.1 687132 46392 ?        Sl   05:56   0:05 gedit /home/yu
+root       2970  0.0  0.0      0     0 ?        I    06:00   0:00 [kworker/1:2]
+root       3319  0.0  0.0      0     0 ?        I    06:09   0:00 [kworker/3:0]
+yunw       3332  0.0  0.0  48848  3644 pts/1    R+   06:15   0:00 ps aux
+
+
